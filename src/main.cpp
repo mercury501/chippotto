@@ -102,8 +102,7 @@ int main(int argc, char *argv[]) {
 				if (ke.key.keysym.sym == SDLK_F1){
 					achip8.soft_reset();
 				}
-				//if (ke.key.keysym.sym == SDLK_SPACE)
-				//	goto load;      // *gasp*, a goto statement!
+				
 					
 
 				for (int i = 0; i < 16; ++i) {
